@@ -2,9 +2,9 @@
 # -*- coding: UTF-8 -*-
 '''
 1.与钉钉建立连接
-	→获取钉钉Access_Token
+	→获取钉钉Access_Token(通过appkey, appsecret)
 
-2.	→获取钉钉部门列表信息
+2.	→获取钉钉部门列表信息(使用Access_Token)
 	→获取钉钉指定部门的全部成员信息
 	→向指定用户发送企业通知消息（）
 
