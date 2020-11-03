@@ -27,8 +27,8 @@ mydb = pymysql.connect(
 	database="xxxxxx"
 )
 mycursor = mydb.cursor()
-appkey = 'dingpq59rv5qcijk6fqo'
-appsecret = 'xu-AqD0VTDgO98ueuT1XIOVj153TYQXxxOb1Xuz-_EiZnrFydMVSOuVxcUPsc2Io'
+appkey = 'xxxxxxxxx'
+appsecret = 'xxxxxxxxxxxx'
 
 
 department_list = []
