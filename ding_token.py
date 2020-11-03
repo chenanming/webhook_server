@@ -21,10 +21,10 @@ import pymysql
 
 # 建立python与mysql之间的连接
 mydb = pymysql.connect(
-	host="172.16.71.93",
+	host="127.0.0.1",
 	user="root",
-	passwd="VSx6oKXPjvqQPJZ3GnIX",
-	database="test_jiradingtalk"
+	passwd="xxxxxxxx",
+	database="xxxxxx"
 )
 mycursor = mydb.cursor()
 appkey = 'dingpq59rv5qcijk6fqo'
