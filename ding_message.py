@@ -12,10 +12,10 @@ app = Flask(__name__)
 
 # 建立python与mysql之间的连接
 mydb = pymysql.connect(
-	host="172.16.71.93",
+	host="127.0.0.1",
 	user="root",
-	passwd="VSx6oKXPjvqQPJZ3GnIX",
-	database="test_jiradingtalk"
+	passwd="xxxxxxxxxxxx",
+	database="xxxxxxxxxxxx"
 )
 mycursor = mydb.cursor()
 headers = {"Charset":"UTF-8", "Content-Type":"application/json"}
