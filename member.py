@@ -9,9 +9,9 @@ app = Flask(__name__)
 
 # 建立python与mysql之间的连接
 mydb = pymysql.connect(
-	host="101.37.147.194",
+	host="127.0.0.1",
 	user="root",
-	passwd="VSx6oKXPjvqQPJZ3GnIX",
+	passwd="xxxxxxxxx",
 	database="test_jiradingtalk"
 )
 
